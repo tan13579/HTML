@@ -1,0 +1,36 @@
+<table border="1">
+    <caption>Bảng điểm sinh viên</caption>
+    <tr>
+        <th>STT</th>
+        <th>Họ tên</th>
+        <th>Điểm</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Tân</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Toàn</td>
+        <td>6</td>
+    </tr>
+</table>
+<form >
+    <fieldset>
+        <legend>Thông tin cá nhân</legend>
+        <label >Họ tên:</label>
+        <input type="text" name="hoten"> <br> <br>
+        <label >Quốc gia:</label>
+        <input list="quocgia" name="qg">
+        <datalist id="quocgia">
+        <option value="Việt Nam"></option>
+        <option value="Hàn QUốc"></option>
+        <option value="Mỹ"></option>
+        </datalist>
+    </fieldset>
+    <br>
+    <label >Điểm trung bình</label>
+    <input type="number" id="diem" value="8">
+    <output for="diem" name="ketqua">8</output>
+</form>
